@@ -1,6 +1,6 @@
 {
-    "name": "Hanz/sendy-api",
-    "description": "Sendy.co API对接，V6.02版本",
+    "name": "hanz/sendy-api",
+    "description": "Sendy.co API SDK，V6.02",
     "authors": [
         {
             "name": "Hanz",
