@@ -8,18 +8,12 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "guzzlehttp/guzzle": "^7.0.1"
     },
     "autoload": {
         "psr-4": {
             "SendyApi\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SendyApi\\ServiceProvider"
-            ]
         }
     },
     "license": "MIT"
