@@ -24,5 +24,6 @@
                 "SendyApi": "SendyApi\\SendyApi::class"
             }
         }
-    }
+    },
+    "license": "MIT"
 }
