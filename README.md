@@ -3,14 +3,14 @@
 
 ## Installation
 ```shell
-composer require hocza/sendy:1.*
+composer require hanz/sendy-api
 ```
 or append your composer.json with:
 
 ```json
 {
     "require" : {
-        "hocza/sendy": "1.*"
+        "hanz/sendy-api"
     }
 }
 ```
