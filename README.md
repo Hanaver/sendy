@@ -14,25 +14,6 @@ or append your composer.json with:
     }
 }
 ```
-Add the following settings to the config/app.php
-
-Service provider:
-
-```php
-'providers' => [
-    // ...
-    'SendyApi\SendyServiceProvider::class',
-]
-```
-
-For the `Sendy::` facade
-
-```php
-'aliases' => [
-    // ...
-    'SendyApi' => 'SendyApi\SendyApi::class',
-]
-```
 
 ## Configuration
 ```shell
