@@ -20,7 +20,10 @@
         "laravel": {
             "providers": [
                 "SendyApi\\SendyServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "SendyApi": "SendyApi\\SendyApi"
+            }
         }
     },
     "license": "MIT"
