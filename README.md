@@ -10,7 +10,7 @@ or append your composer.json with:
 ```json
 {
     "require" : {
-        "hanz/sendy-api"
+        "hanz/sendy-api":  "^0.2.5"
     }
 }
 ```
@@ -21,7 +21,7 @@ Service provider:
 ```php
 'providers' => [
     // ...
-    'Hocza\Sendy\SendyServiceProvider',
+    'SendyApi\SendyServiceProvider::class',
 ]
 ```
 
@@ -30,7 +30,7 @@ For the `Sendy::` facade
 ```php
 'aliases' => [
     // ...
-    'Sendy' => 'Hocza\Sendy\Facades\Sendy',
+    'SendyApi' => 'SendyApi\SendyApi::class',
 ]
 ```
 
