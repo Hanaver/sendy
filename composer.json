@@ -16,5 +16,15 @@
             "SendyApi\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SendyApi\\SendyServiceProvider::class"
+            ],
+            "aliases": {
+                "SendyApi": "SendyApi\\SendyApi::class"
+            }
+        }
+    },
     "license": "MIT"
 }
