@@ -12,13 +12,6 @@ use Illuminate\Support\ServiceProvider;
 
 class SendyServiceProvider extends ServiceProvider
 {
-    public function register()
-    {
-        $this->mergeConfigFrom(
-            __DIR__.'/config/config.php', 'sendy'
-        );
-    }
-
     public function boot()
     {
         $this->publishes([
