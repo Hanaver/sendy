@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SendyApi\\SendyServiceProvider::class"
+                "SendyApi\\SendyServiceProvider"
             ]
         }
     },
