@@ -176,6 +176,19 @@ class SendyApi
     }
 
     /**
+     * 删除任务
+     * Author: Andy
+     * @param int $campaignId
+     * @return array
+     */
+    public function campaignDelete(int $campaignId)
+    {
+        $params = ['campaign_id' => $campaignId];
+        return $this->http(config('sendy.api_campaign_delete'), $params);
+    }
+
+
+    /**
      * http 请求方法
      * Author: Andy
      * @param string $url

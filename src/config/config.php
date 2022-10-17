@@ -16,5 +16,6 @@ return [
     'api_delete' => '/api/subscribers/delete.php',
     'api_subscription_status' => '/api/subscribers/subscription-status.php',
     'api_active_subscriber_count' => '/api/subscribers/active-subscriber-count.php',
-    'api_create' => '/api/campaigns/create.php'
+    'api_create' => '/api/campaigns/create.php',
+    'api_campaign_delete' => '/api/campaigns/delete.php'
 ];
